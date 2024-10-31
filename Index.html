@@ -193,7 +193,7 @@
             linkGerado.innerHTML = `<a href="${link}">Clique aqui para ver o convite</a>`;
         }
 
-        // Função para exibir o convite ao carregar a página, se houver parâmetros na URL
+        // Função para exibir o convite ao carregar a Página, se houver parâmetros na URL
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
             const tipoEvento = urlParams.get("tipoEvento") || "padrao";
